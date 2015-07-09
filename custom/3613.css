@@ -1,0 +1,107 @@
+/*
+-------------------
+Custom Theme Styles
+-------------------
+*/
+h1 {
+	font-family: Varela, sans-serif; font-weight: normal; color: #b0d978; font-size: 66px;
+}
+	h1 img {
+		max-width: 100%;
+	}
+h2, h3 {
+	font-family: Varela, sans-serif; font-weight: normal; color: #1bbbb4;
+}
+h2 {
+	font-size: 31px;
+}
+body {
+	color: #c7b299; font-family: Varela, sans-serif; font-weight: normal; font-size: 17px;
+	background-color: #000000; background-image: url('../uploads/site/background_image/3611/la-machina.jpg');
+	background-repeat: repeat; background-attachment: fixed;
+	background-size: auto; -moz-background-size: auto; -webkit-background-size: auto;
+}
+	article {
+		background-color: rgba(0, 0, 0, 0.51);
+		width: 835px;
+		float: none; 
+	}
+
+
+/*
+--------------
+MOBILE STYLES
+--------------
+*/
+
+/** TABLET **/
+@media screen and (max-device-width: 1024px) {
+	html, body {
+		min-width: 0;
+	}
+	body {
+		font-size: 170%;
+	}
+	article {
+		width: 85%; margin-left: auto; margin-right: auto;
+		float: none;
+	}
+			h1 {
+				font-size: 85.8px;
+			}
+		h2 {
+			font-size: 52.699999999999996px;
+		}
+	.main_content, .sidebar {
+		width: 100%;
+		float: none;
+	}
+}
+
+/** iPAD Landscape **/
+@media only screen and (min-device-width: 479px) and (max-device-width: 1024px) and (orientation:landscape) {
+	article {
+		width: 835px;
+	}
+		.main_content {
+			width: 505px;
+			float: left;
+		}
+		.sidebar {
+			width: 290px;
+			float: right;
+		}
+}
+
+
+/** NARROWER BROWSER **/
+@media screen and (max-device-width: 800px) {
+	html, body {
+		min-width: 800px;
+	}
+	body {
+		font-size: 170%;
+	}
+	article {
+		width: 690px; margin-left: auto; margin-right: auto;
+		float: none;
+	}
+			h1 {
+				font-size: 85.8px;
+			}
+		h2 {
+			font-size: 52.699999999999996px;
+		}
+	.main_content, .sidebar {
+		width: 100%;
+		float: none;
+	}
+}
+
+
+/*
+-------------------
+Custom CSS Setting
+-------------------
+*/
+
